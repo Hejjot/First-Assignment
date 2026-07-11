@@ -1,0 +1,41 @@
+container{
+    max-width: 1200px;
+    margin: auto;
+}
+img{
+    width: 100%;
+}
+.Navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: auto;
+    align-items: center;
+}
+
+.Navigation ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+    color: #89848434;
+}
+.Navigation ul a{
+    text-decoration: none;
+    color:#5e5b5b ;
+}
+.Common_btn{
+    background-color: #1D4ED8;
+    color: white;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    margin-right: 40px;
+}
+.Hero{
+    text-align: center;
+    
+}
