@@ -36,6 +36,42 @@ img{
     margin-right: 40px;
 }
 .Hero{
+    height: 80vh;
+    margin: 0;
     text-align: center;
-    
+    background-image: url("./assets/banner.jpg");
+    color: white;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.Hero h1{
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+.Hero p{
+    padding: 0px 150px 200px 200px;
+}
+.Meet_speaker{
+    text-align: center;
+    padding: 20px;
+}
+.Meet_speaker .Card_p{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 20px;
+}
+.card{
+    border-radius: 5px;
+    border:1px solid rgb(235, 229, 229);
+    text-align: left;
+    padding-left: 5px;
+
+}
+.card img{
+    /* border-radius: 5px; */
+    border-image: auto;
 }
