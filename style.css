@@ -75,3 +75,51 @@ img{
     /* border-radius: 5px; */
     border-image: auto;
 }
+.plan{
+    margin-top: 150px;
+    text-align: center;
+}
+.plan_card{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+.Card_Indi{
+    border-radius: 8px;
+    border:1px solid rgb(235, 229, 229);
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 30px;
+    align-items: center;
+}
+.pro{
+    background-color: rgba(19, 14, 53, 0.893);
+    color: white;
+    
+}
+.Card_Indi button{
+    display: inline-block;
+    border: 1px solid #331a8f;
+    text-align: center;
+    padding:10px;
+    width: 200px;
+    border-radius: 8px;
+    margin-left:20px ;
+    margin-bottom: 20px;
+}
+.pro button{
+    background-color: #1D4ED8;
+    color: aliceblue;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #12073b;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.end{
+    text-align: center;
+}
