@@ -116,18 +116,7 @@ img{
     background-color: #1D4ED8;
     color: aliceblue;
 }
-footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #12073b;
-    color: white;
-    padding-left: 40px;
-    padding-right: 40px;
-}
-.end{
-    text-align: center;
-}
+
 .why-attend{
     padding: 60px 20px;
     text-align: center;
@@ -161,4 +150,23 @@ footer{
 .feature p{
     color: #555;
     line-height: 1.6;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #12073b;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.end{
+    text-align: center;
+}
+.end1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
